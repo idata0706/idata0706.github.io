@@ -59,6 +59,19 @@ select {
     text-align: center;
 }
 
+.status-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    flex: 1;
+}
+.icon {
+    font-size: 1.5em;
+    padding: 6px;
+    border-radius: 8px;
+}
+
 .red {
     background-color: rgba(255, 0, 0, 0.5);
 }
