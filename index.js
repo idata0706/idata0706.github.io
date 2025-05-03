@@ -177,8 +177,6 @@ function animate() {
 animate();
 fetchData();
 
-
-//////////////////////////////////////////////
 // screen size phone vs laptop 600px
 
 let lastWidth = window.innerWidth;
@@ -189,11 +187,12 @@ function onWindowResize () {
 
     clearTimeout(resizeTimeout);
     resizeTimeout = setTimeout(() => {
-        
+        // console.log('last width ', lastWidth, 'current width ', currentWidth);
+
         if ((lastWidth <= 600 && currentWidth > 600) || (lastWidth > 600 && currentWidth <= 600)) {
+            // console.log('screen size crossed 600, reloading')
             window.location.reload();
         }
-
         lastWidth = currentWidth;
     }, 300);
 }
