@@ -17,15 +17,46 @@ h2 {
 }
 
 select {
-    padding: 10px;
-    margin: 10px 0;
+    margin-top: 20px;
+    padding: 5px 10px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding: 0 20px;
+    width: 100%;
+}
+
+.outermost {
+    flex: 0 1 auto;
+    text-align: left;
+    flex-shrink: 0;
+}
+
+.explaination {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    border: solid black;
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.inner-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.inner {
+    padding: 10px 20px;
+    border: solid blue;
+    flex: 1;
+    text-align: center;
 }
 
 .red {
