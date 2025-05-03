@@ -195,7 +195,7 @@ function onWindowResize () {
         }
 
         lastWidth = currentWidth;
-    }, 10000);
+    }, 300);
 }
 
 window.addEventListener('resize', onWindowResize);
