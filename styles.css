@@ -13,7 +13,7 @@ h1 {
 h2 {
     color: #333;
     margin: 0;
-    font-size: x-small;
+    font-size: small;
 }
 
 select {
@@ -41,20 +41,20 @@ select {
     display: flex;
     flex-direction: column;
     padding: 0 20px;
-    border: solid black;
     flex-grow: 1;
     margin: 0 20px;
+    text-align: center;
 }
 
 .inner-container {
     display: flex;
     justify-content: space-between;
+    text-align: center;
     width: 100%;
 }
 
 .inner {
     padding: 10px 20px;
-    border: solid blue;
     flex: 1;
     text-align: center;
 }
