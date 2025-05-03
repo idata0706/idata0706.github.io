@@ -178,4 +178,39 @@ animate();
 fetchData();
 
 
+//////////////////////////////////////////////
+// screen size phone vs laptop 600px
+
+let lastWidth = window.innerWidth;
+let resizeTimeout;
+
+function onWindowResize () {
+    const currentWidth = window.innerWidth;
+
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(() => {
+        
+        if ((lastWidth <= 600 && currentWidth > 600) || (lastWidth > 600 && currentWidth <= 600)) {
+            window.location.reload();
+        }
+
+        lastWidth = currentWidth;
+    }, 10000);
+}
+
+window.addEventListener('resize', onWindowResize);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
