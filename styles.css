@@ -10,6 +10,12 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    color: #333;
+    margin: 0;
+    font-size: x-small;
+}
+
 select {
     padding: 10px;
     margin: 10px 0;
