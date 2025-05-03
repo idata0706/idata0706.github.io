@@ -78,7 +78,7 @@ async function fetchData() {
         return;
     }
     try {
-        const response = await fetch('/api/files');
+        const response = await fetch('/file/files');     // locally was fetch('/api/files')
         
         console.log('Response: ', response); // Log response object
         if (!response.ok) {
