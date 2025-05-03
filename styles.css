@@ -83,3 +83,44 @@ select {
 .green {
     background-color: rgba(0, 255, 0, 0.5);
 }
+
+
+
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 16px;
+        padding: 10px;
+    }
+    .outermost,
+    .explaination,
+    #fileDropdown {
+        width: 100%;
+        text-align: center;
+    }
+
+    #fileDropdown {
+        margin-top: 0; 
+    }
+
+    .inner-container {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .status-item {
+        justify-content: center;
+    }    
+}
+
+
+
+
+
+
+
+
+
+
+
