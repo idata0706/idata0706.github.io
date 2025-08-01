@@ -124,8 +124,8 @@ select {
 
 
 .flag-icon {
-    width: 1.4em;
-    height: 1.4em;
+    width: 20px;
+    height: 20px;
     object-fit: contain;
     vertical-align: middle;
 }
