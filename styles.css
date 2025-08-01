@@ -123,6 +123,14 @@ select {
 
 
 
+.flag-icon {
+    width: 1.4em;
+    height: 1.4em;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+
 
 
 
